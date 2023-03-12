@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffeaa7 ;
+    font-family: sans-serif;
+}
+
+.continer {
+    max-width: 1920px
+px;
+    margin: 0 auto;
+}
+
+.mem_img {
+    width: auto;
+    height: auto;
+}
+
+.fold input, .fold-content {
+    display: none;
+}
+
+.fold {
+    background:#dfe6e9;
+    color: black;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+.fold-title {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    position: relative;
+
+}
+
+.fold-title::after {
+    content: url(./img/on.svg);
+    width: 5px;
+    height: 5px;
+    
+
+    }
+
+.fold-content {
+    padding: 10px 10px;
+}
+
+.fold :checked + .fold-title {
+    background: #fdcb6e;
+    color: black;
+}
+
+.fold :checked + .fold-title::after {
+    background-image: url(./img/off.svg);
+    width: 5px;
+    height: 5px;;
+
+}
+
+.fold :checked ~ .fold-content {
+    display: block;
+}
+
+
+
+.mem :hover {
+    cursor: pointer;
+}
+
+.mem :hover {
+    display: block;
+}
