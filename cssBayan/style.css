@@ -37,7 +37,7 @@ px;
     position: relative;
 
 }
-/*
+
 .fold-title::after {
     content: url(./img/on.svg);
     width: 5px;
@@ -45,7 +45,7 @@ px;
     
 
     }
-*/
+
 .fold-content {
     padding: 10px 10px;
 }
@@ -55,13 +55,13 @@ px;
     color: black;
 }
 
-/*.fold :checked + .fold-title::after {
+.fold :checked + .fold-title::after {
     background-image: url(./img/off.svg);
     width: 5px;
     height: 5px;;
 
 }
-*/
+
 .fold :checked ~ .fold-content {
     display: block;
 }
