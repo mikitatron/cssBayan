@@ -13,8 +13,9 @@ px;
     margin: 0 auto;
 }
 
-.checkbox {
-    display: none;
+.mem_img {
+    width: auto;
+    height: auto;
 }
 
 .fold input, .fold-content {
